@@ -1,0 +1,88 @@
+/* Fuente general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  background-color: #5daec4;
+  padding: 10px 16px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 30px; /* Espacio debajo del encabezado */
+  display: flex; /* Flexbox para alinear elementos */
+  justify-content: flex-start; /* Alinear contenido al inicio */
+  align-items: center;
+}
+
+.header .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.header-title {
+  margin-left: 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: black; /* Cambiar color a negro */
+}
+
+/* Table */
+.table {
+  font-size: 1em;
+  margin: 0 auto; /* Centrar la tabla */
+  width: 100%; /* Asegurar que la tabla ocupe todo el ancho disponible */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #e9ecef;
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 12px;
+}
+
+/* Color azul para el nombre de la serie */
+.series-name {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Promedio de las temporadas (como pie de tabla) */
+.average-seasons {
+  text-align: center;
+  font-size: 0.9em; /* Tamaño de letra pequeño */
+  margin-top: 20px; /* Espacio superior */
+  color: black; /* Color negro para el texto */
+  font-weight: normal; /* Peso de la fuente normal */
+}
+
+/* Se puede agregar padding y estilo para mejorar la legibilidad */
+.average-seasons p {
+  margin: 0;
+  padding: 5px 0;
+  background-color: transparent; /* Fondo transparente */
+}
